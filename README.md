@@ -1,2 +1,5 @@
 # CursoEJBMarzo2015
-Practicas
+
+##Lista de Alumnos:
+
+Alumno        Correo    usuario Git
