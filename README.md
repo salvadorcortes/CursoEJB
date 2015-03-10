@@ -5,6 +5,6 @@
 
 |Alumno|Correo|Usuario Git|Practica 1|Practica 2|
 |---|---|---|---|---|
-|Juan Manuel Hernandez   |  sidlors@gmail.com | ![sidlors](https://github.com/sidlors)   |   |    |
+|Juan Manuel Hernandez   |  sidlors@gmail.com | sidlors  |   |    |
 |   |   |   |   |   |
 |   |   |   |   |   |
