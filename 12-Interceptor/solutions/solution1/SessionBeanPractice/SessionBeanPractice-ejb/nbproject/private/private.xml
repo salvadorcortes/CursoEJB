@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/1">
+        <file>file:/D:/Paromita/JavaEE/D77742GC10/LabFiles/D77742GC10/trunk/labs/12-Interceptor/solutions/solution1/SessionBeanPractice/SessionBeanPractice-ejb/src/java/com/example/interceptors/PMInterceptor.java</file>
+        <file>file:/D:/Paromita/JavaEE/D77742GC10/LabFiles/D77742GC10/trunk/labs/12-Interceptor/solutions/solution1/SessionBeanPractice/SessionBeanPractice-ejb/src/java/com/example/AutomaticSayHelloBean.java</file>
+        <file>file:/D:/Paromita/JavaEE/D77742GC10/LabFiles/D77742GC10/trunk/labs/12-Interceptor/solutions/solution1/SessionBeanPractice/SessionBeanPractice-ejb/src/java/com/example/SingletonHelloWorldBean.java</file>
+    </open-files>
+</project-private>
