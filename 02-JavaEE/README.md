@@ -59,25 +59,25 @@ Nos da las opciones que podemos tomar de nuestro repositorio
 
     [INFO] No archetype defined. Using maven-archetype-quickstart (org.apache.maven.archetypes:maven-archetype-quickstart:1.0)
     Choose archetype:
-    1: local -> mx.certificatic.practicas:practica-ejb-archetype (practica1-ejb-archetype)
+    1: local -> mx.certificatic.practicas:archetype-certificatic-archetype (archetype-certificatic-archetype)
     Choose a number or apply filter (format: [groupId:]artifactId, case sensitive contains): :
 
 Damos en opcion 1:
 
     Define value for property 'groupId': : mx.certificatic.practicas
-    Define value for property 'artifactId': : practica1-ejb
+    Define value for property 'artifactId': : practica-maven
     Define value for property 'version':  1.0-SNAPSHOT: :
-    Define value for property 'package':  mx.certificatic.practicas: :com.certificatic.practicas.practica1
+    Define value for property 'package':  mx.certificatic.practicas: :mx.certificatic.practicas.maven
     Confirm properties configuration:
-    groupId: com.certificatic.practicas
-    artifactId: practica2-ejb
+    groupId: mx.certificatic.practicas
+    artifactId: practica-maven
     version: 1.0-SNAPSHOT
-    package: com.certificatic.practicas.practica2
+    package: mx.certificatic.practicas.maven
     Y: :
 
 Esta listo para importarlo y trabajar
 
-![](http://snag.gy/ylCHn.jpg)
+![](http://snag.gy/cT2ah.jpg)
 
 
 ###Agregar Testing sources
