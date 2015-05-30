@@ -90,3 +90,6 @@ Vamos a agregar carpetas de recursos a nuestro proyecto de tal manera que quede 
 Agregamos el Application Server y realizamos el deploy:
 
 ![](http://snag.gy/2f77d.jpg)
+
+
+#No olvides dar commit y push a tus cambios.
