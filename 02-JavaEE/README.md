@@ -15,6 +15,7 @@ Luego nos movemos a la carpeta target que tiene la estructura de este arquetipo
 
 Tendremos algo así:
 
+```xml
     <?xml version="1.0" encoding="UTF-8"?>
     <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
@@ -41,10 +42,11 @@ Tendremos algo así:
     </pluginManagement>
     </build>
     </project>
-
+```
 
 Luego corremos:
-    mvn install
+
+     mvn install
 
 Listo, nos movemos a la carpeta que contiene a la example/  y creamos nuestra practica apartir de este nuevo arquetipo que acabamos de crear:
 
