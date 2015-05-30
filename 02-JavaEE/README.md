@@ -85,3 +85,8 @@ Esta listo para importarlo y trabajar
 Vamos a agregar carpetas de recursos a nuestro proyecto de tal manera que quede asi:
 
 ![](http://snag.gy/QOQ44.jpg)
+
+
+Agregamos el Application Server y realizamos el deploy:
+
+![](http://snag.gy/2f77d.jpg)
