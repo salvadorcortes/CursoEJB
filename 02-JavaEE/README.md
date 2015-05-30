@@ -48,16 +48,19 @@ Luego corremos:
 
      mvn install
 
-Listo, nos movemos a la carpeta que contiene a la example/  y creamos nuestra practica apartir de este nuevo arquetipo que acabamos de crear:
+Listo, nos movemos a la carpeta CursoEJB/02-JavaEE/practices/practice1  y creamos nuestra practica apartir de este nuevo arquetipo que acabamos de crear:
 
     mvn archetype:generate -DarchetypeCatalog=local
+
+
+![](http://snag.gy/v6UUS.jpg)
 
 Nos da las opciones que podemos tomar de nuestro repositorio
 
     [INFO] No archetype defined. Using maven-archetype-quickstart (org.apache.maven.archetypes:maven-archetype-quickstart:1.0)
     Choose archetype:
     1: local -> mx.certificatic.practicas:practica-ejb-archetype (practica1-ejb-archetype)
-Choose a number or apply filter (format: [groupId:]artifactId, case sensitive contains): :
+    Choose a number or apply filter (format: [groupId:]artifactId, case sensitive contains): :
 
 Damos en opcion 1:
 
