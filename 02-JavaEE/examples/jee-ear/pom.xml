@@ -14,9 +14,9 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>mx.certificatic.practicas</groupId>
+			<groupId>${parent.groupId}</groupId>
 			<artifactId>jee-ejb</artifactId>
-			<version>1.0-SNAPSHOT</version>
+			<version>${parent.version}</version>
 			<type>ejb</type>
 		</dependency>
 		<dependency>
