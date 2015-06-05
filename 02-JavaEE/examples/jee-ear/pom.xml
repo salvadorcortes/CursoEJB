@@ -47,7 +47,7 @@
 						<webModule>
 							<groupId>${parent.groupId}</groupId>
 							<artifactId>jee-war</artifactId>
-							<contextRoot>web</contextRoot>
+							<contextRoot>/web</contextRoot>
 						</webModule>
 
 					</modules>

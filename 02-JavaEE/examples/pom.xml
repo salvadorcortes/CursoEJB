@@ -13,11 +13,29 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
-	<modules>
-		<module>jee-ear</module>
-		<module>jee-ejb</module>
-		<module>jee-war</module>
-	</modules>
+	<dependencies>
+		<dependency>
+			<groupId>javax</groupId>
+			<artifactId>javaee-api</artifactId>
+			<version>6.0</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.7.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>1.7.2</version>
+		</dependency>
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.14</version>
+		</dependency>
+	</dependencies>
 
 	<build>
 		<pluginManagement>
@@ -30,7 +48,9 @@
 						<target>1.7</target>
 					</configuration>
 				</plugin>
-
+			</plugins>
+		</pluginManagement>
+		<plugins>
 				<plugin>
 					<artifactId>maven-ejb-plugin</artifactId>
 					<version>2.3</version>
@@ -48,9 +68,14 @@
 					<artifactId>build-helper-maven-plugin</artifactId>
 					<version>1.7</version>
 				</plugin>
-			</plugins>
-		</pluginManagement>
+		</plugins>
 	</build>
+	
+	<modules>
+		<module>jee-ear</module>
+		<module>jee-ejb</module>
+		<module>jee-war</module>
+	</modules>
 
 
 
