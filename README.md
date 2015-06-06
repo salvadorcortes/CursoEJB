@@ -5,6 +5,7 @@
 
 |Alumno|Correo|Usuario Git|Practica 1|Practica 2|
 |---|---|---|---|---|
-|Juan Manuel Hernandez   |  sidlors@gmail.com | sidlors  | |Eduardo Castillo|
+|Juan Manuel Hernandez   |  sidlors@gmail.com | sidlors  | ||
 |Olivia Castillo|   |   |   |   |
 |Alberto Colín|   |   |   |   |
+|Eduardo Castillo|  | | | |
