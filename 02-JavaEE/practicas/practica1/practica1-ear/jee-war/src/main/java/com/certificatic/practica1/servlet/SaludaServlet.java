@@ -23,7 +23,7 @@ public class SaludaServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	
 	@EJB
-	SaludaEJB saludaEJB; 
+	SaludaEJB saludaEJB; 	
        
  
 
@@ -32,9 +32,11 @@ public class SaludaServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
-		String saludo=request.getParameter("nombre");
-		request.setAttribute("saludoHola", "Hola "+saludo+"!!");
+		String saludo = request.getParameter("nombre");	
+		String saludoFinal = saludaEJB.saludaMundo(saludo);
+		request.setAttribute("saludoHola", saludoFinal);
 		request.getRequestDispatcher("salida.jsp").forward(request, response);
+		
 	}
 
 

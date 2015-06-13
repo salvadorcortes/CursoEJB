@@ -17,4 +17,9 @@ public class SaludaEJB implements SaludaEJBRemote, SaludaEJBLocal {
         // TODO Auto-generated constructor stub
     }
 
+    @Override
+    public String saludaMundo(String nombre) {
+        return "Hola "+nombre;
+    }
+
 }
