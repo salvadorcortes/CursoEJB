@@ -8,6 +8,9 @@
         <dependent-module archiveName="jee-war-1.0-SNAPSHOT.war" deploy-path="/" handle="module:/resource/jee-war/jee-war">
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="jee-ejb-api-1.0-SNAPSHOT.jar" deploy-path="/" handle="module:/resource/jee-ejb-api/jee-ejb-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <dependent-module archiveName="slf4j-api-1.7.2.jar" deploy-path="/APP-INF/lib" handle="module:/classpath/var/M2_REPO/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
